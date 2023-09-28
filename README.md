@@ -10,7 +10,7 @@ Key features of this package include:
 - **Python programming interface**: Prompts are represented with Python code, providing a more structured and maintainable format than raw text.
 - **Cross-referencing**: Define elements in your prompt as variables and refer to them thereafter, enabling easy cross-referencing of different parts of the prompt. The structure of forward referencing could potentially be more compatible with the auto-regressive nature of current LMs.
 
-By using the `procoder` package, we developed and maintained a system of prompts that has **in total more than 20k tokens** in the [ToolEmu](https://https://github.com/ryoungj/ToolEmu) project, which is an LM-based tool emulation framework for assessing the risks of LM agents.
+By using the `procoder` package, we developed and maintained a system of prompts that has **in total more than 20k tokens** in the [ToolEmu](https://github.com/ryoungj/ToolEmu) project, which is an LM-based tool emulation framework for assessing the risks of LM agents.
 
 **Note that the package is still in its early stages and under active development.**
 
@@ -87,7 +87,7 @@ The output of the second prompt is:
 Write a function in python that satisfies the [Input Requirement] and [Output Requirement].
 ```
 
-For more examples, please refer to the [ToolEmu prompts](https://https://github.com/ryoungj/ToolEmu/toolemu/prompts) that was developed using the `procoder` package.
+For more examples, please refer to the [ToolEmu prompts](https://github.com/ryoungj/ToolEmu/tree/main/toolemu/prompts) that was developed using the `procoder` package.
 
 
 ## Contributors
