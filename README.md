@@ -81,7 +81,7 @@ The output of the second prompt is:
 ```markdown
 ## Requirements
 1. Input Requirement: The input should be two numbers.
-2. Output Requirement: The output should be the sum of the two numbers.
+2. Output Requirement: The output should be the multiplication of the two numbers.
 
 ## Instruction
 Write a function in python that satisfies the [Input Requirement] and [Output Requirement].
